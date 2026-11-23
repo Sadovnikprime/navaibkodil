@@ -1,0 +1,20 @@
+{
+  "name": "1c-pomoshnik",
+  "version": "3.0.0",
+  "description": "1С: Помощник — мобильное приложение (PWA) для клиентов 1С: Франчайзи, админка для специалистов и сервер Node.js + Express + PostgreSQL",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node scripts/init-db.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
