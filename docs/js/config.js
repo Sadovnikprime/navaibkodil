@@ -1,4 +1,4 @@
-const RENDER_SERVER_URL = 'https://ИМЯ-ВАШЕГО-СЕРВИСА.onrender.com';
+const RENDER_SERVER_URL = 'https://navaibkodil.onrender.com';
 
 const isGithubPages = location.hostname.endsWith('github.io');
 
